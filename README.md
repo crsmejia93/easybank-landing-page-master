@@ -25,7 +25,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
 
 The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
@@ -48,7 +48,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 7. If you'd like to try making your project fully responsive, we'd recommend checking out [Sizzy](http://bit.ly/fem-sizzy). It's a great browser that makes it easy to view your site across multiple devices.
 
 ## Deploying your project
-
+0
 As mentioned above, there are a number of ways to host your project for free. We recommend using [ZEIT Now](http://bit.ly/fem-zeit) as it's an amazing service and extremely simple to get set up with. If you'd like to use ZEIT, here are some steps to follow to get started:
 
 1. [Sign up](http://bit.ly/fem-zeit-signup) to ZEIT Now and go through the onboarding flow, ensuring your GitHub account is connected by using their [ZEIT Now for GitHub](https://zeit.co/docs/v2/git-integrations/zeit-now-for-github) integration.

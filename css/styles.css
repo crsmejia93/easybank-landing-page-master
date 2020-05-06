@@ -1,0 +1,163 @@
+/*-SELECTORS --------------------*/
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  color: rgb(45, 49, 77);
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+/* General Classes-------------------------------------------------------------------*/
+.requestInviteButton {
+  background: linear-gradient(45deg, #31D35C, #2BB7DA);
+  border-radius: 35px;
+  border: none;
+  padding: 10px 35px;
+  color: white;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.generalPadding {
+  padding: 0 10%;
+}
+
+.headingsColor {
+  color: rgb(45, 49, 77);
+}
+
+/* firstDiv-------------------------------------------------------------------*/
+.firstDiv {
+  background: white;
+  position: relative;
+  z-index: 1;
+  color: #a4a5aa;
+}
+
+/* secondDiv------------------------------------------------------------------*/
+.secondDiv {
+  background-color: #fafafa;
+}
+
+.secondDiv-text {
+  position: relative;
+  top: 150px;
+  font-size: 1.1875rem;
+  color: #a4a5aa;
+}
+
+.secondDiv-title {
+  font-size: 50px;
+}
+
+.phones-mockup-image {
+  position: relative;
+  bottom: 13%;
+  left: 26%;
+  width: 114%;
+}
+
+.jumbotron {
+  background-image: url("https://res.cloudinary.com/dn5oij7hb/image/upload/v1584580663/easybank-website/bg-intro-desktop.svg");
+  background-color: #fafafa;
+  background-position: 610px 70%;
+  background-repeat: no-repeat;
+  background-size: 84%;
+  display: inline-flex;
+  height: 599px;
+  margin-bottom: 0;
+}
+
+.requestInvite {
+  margin: 45px 0;
+}
+
+/* thirdDiv------------------------------------------------------------------*/
+.thirdDiv {
+  background-color: #f4f5f7;
+  padding: 113px 10%;
+  color: #a4a5aa;
+}
+
+.thirdDivIntroText {
+  padding: 0 40% 6% 0;
+}
+
+.thirdDivIntroTitle {
+  padding-bottom: 3%;
+}
+
+.icon-spacing {
+  margin-bottom: 18%;
+}
+
+/* responsive styling---------------------------------------------------------*/
+@media only screen and (max-width: 575px) {
+  .nav-ul {
+    padding: 20px;
+  }
+
+  .modified-navbar {
+    text-align: center;
+    position: absolute;
+    margin: 180px auto 0;
+    width: 90%;
+    height: 240px;
+    background: white;
+    border-radius: 2%;
+    box-shadow: 0 30px 1000px black;
+    font-weight: 300;
+  }
+
+  .requestInvite-nav {
+    display: none;
+  }
+
+  .navigation {
+    background: none;
+  }
+
+  .jumbotron {
+    background-image: url("https://res.cloudinary.com/dn5oij7hb/image/upload/v1584580663/easybank-website/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 900px;
+  }
+}
+
+/* navigation button animation -------------------------------------------*/
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 1px;
+  background-color: rgb(45, 49, 77);
+  ;
+  margin: 6px 0;
+  transition: 0.4s;
+  /* padding: 1px; */
+}
+
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 2px);
+  transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.navbar-toggler {
+  border: none;
+}
